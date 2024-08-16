@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+      <style>
+        div{
+          color: rgb(31, 31, 154);
+        }
+      </style>
+  </head>
+
+  <body>
+    <fieldset>
+    <legend>Some Information</legend>
+    
+    <form action="mailto:bishanksharma08@gmail.com" method="post" enctype="text/plain">
+    <p>
+      <label for="username">Username</label> 
+      <input type="text" placeholder="username" id="username"      name="username">
+    </p>
+
+    <p>
+      <label for="password">Password</label>
+      <input type="password" placeholder="password" id="password" name="password">
+    </p>
+    
+    <p>
+      <label for="email">Email</label>
+      <input type="email" placeholder="email address" id="email" name="email">
+    </p>
+
+      <h3>Select Your Gender</h3>
+    <p>
+      <label for="male">Male</label>
+      <input type="radio" value="male" name="gender" id="male">
+      <label for="female">Female</label>
+      <input type="radio" value="female" name="gender" id="female">
+    </p>
+
+
+      <h3>Select Your Hobbies</h3>
+    <p>
+      <label for="dance">Dance</label>
+      <input type="checkbox" value="dance" name="hobbies" id="dance">
+      <label for="sing">Sing</label>
+      <input type="checkbox" value="sing" name="hobbies" id="sing">
+    </p>
+
+      <h3>Selecct Your Country</h3>
+      <p>
+        <select name="country" id="country">
+          <option value="india">India</option>
+          <option value="nepal">Nepal</option>
+          <option value="china">China</option>
+        </select>
+      </p>
+
+      <p>
+        <textarea name="message" placeholder="type message" id="msg" cols="30" rows="10" ></textarea>
+      </p>
+      
+    
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    
+      
+
+
+    </form>
+
+  </fieldset>
+
+    
+  </body>
+
+</html>
